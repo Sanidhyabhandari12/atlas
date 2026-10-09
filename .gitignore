@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+runs/*
+!runs/.gitkeep
+evals/results/*
+!evals/results/.gitkeep
+.pytest_cache/
+.DS_Store
+.ruff_cache/

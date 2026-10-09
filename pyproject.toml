@@ -1,0 +1,13 @@
+[project]
+name = "atlas-worker"
+version = "0.1.0"
+description = "Atlas: an autonomous AI task worker that operates business software end-to-end, with policy gates, recovery and independent verification."
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 140
